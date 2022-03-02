@@ -1,0 +1,93 @@
+.photos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 4rem;
+  grid-column-gap: 2rem;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  display: block;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+  max-height: 3rem;
+  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo-container img{
+  width: 50px;
+  max-width: 2.5rem;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user-name-contianer{
+  padding: 0rem .5rem;
+  height: 100%;
+}
+
+.user-name-contianer h2{
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.user-name-contianer p{
+  padding: 0rem;
+  margin: 0rem;
+  font-size: .75rem;
+}
+
+.photo-stats p{
+  text-align: right;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.photo-stats .location{
+  color: #555;
+  font-style: italic;
+}
+
+.filter-container{
+  margin-bottom: 2rem;
+}
+
+.filter-container button{
+  margin-right: 2rem;
+  min-width: 5rem;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: rgb(65, 98, 168);
+  border: 2px solid rgb(65, 98, 168);
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(65, 98, 168);
+  color: #fff;
+}
+
+button.active{
+  background-color: rgb(65, 98, 168);
+  color: #fff;
+}
